@@ -12,5 +12,10 @@ public class hero_menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hero_menu);
+        
+        //base stats
+    private String heroName, heroClass;
+    private int herolvl, heroId, heroPhysDEF;
+    private double heroPhysATK, heroMgATK, heroMgDEF, heroInt, heroStr, heroAgi, heroXP;
     }
 }
